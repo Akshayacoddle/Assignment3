@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  
 body{
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -91,7 +90,7 @@ nav a{
     display: inline;
     float: right;
 }
-#icon {
+.icon{
     font-size: 20px;
     margin: 0 20px;
 }
@@ -110,7 +109,7 @@ nav a{
     width: 33.33%;
     padding: 25px;
 }
-  .second-div h4 {
+.second-div h4 {
     font-size: 2rem;
 }
 .second-div {
@@ -169,7 +168,7 @@ nav a{
     font-size: 2rem;  
 }
 .forth2{
-    font-family: 'NovaresePro-Medium';;
+    font-family: 'NovaresePro-Medium';
 }
 hr {
     border-style: none;
