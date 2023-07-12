@@ -12,17 +12,17 @@ a{
 }
 header h1 {
     display: inline;
-    margin: 0 250px;
+    padding: 0 200px;
 }
-header {
-    margin: 10px 70px;
+.container
+{
+    max-width: 1200px;
+    margin: auto;
 }
 .heading{
-    margin: 0;
-    padding: 0;
-    display: inline;
+    margin: 10px 70px;
 }
-.main-head{
+.banner{
     margin: 0;
     padding: 0;
     background-image: url(images/main-back.jpg) ;
@@ -37,19 +37,19 @@ header {
 span{
     font-weight: lighter;
 }
-.para {
+.ban-head {
     width: 50%;
     margin-bottom: 0;
-    padding: 150px;
+    padding: 200px 70px 0 0;
 }
-.para p {
+.ban-head p {
     font-size: 3rem;
     margin: 0;
     line-height: 50px;
     margin-bottom: 40px;
 }
-.shop-div {
-    padding: 50px 0;
+.shop-btn {
+    padding: 40px 0 0 0;
 }
 .head1 {
     text-align: center;
@@ -59,16 +59,15 @@ span{
     color: white;
 }
 .head1 p{
-        margin-top: 0;
+        margin: 0;
 }
 a.shop {
     background-color: #ebe8d3;
     padding: 10px 20px;
 }
 nav{
-    height: 120px;
+    height: 100px;
     width: 100%;
-    background-color: white;
 }
 nav ul{
     margin: 0;
@@ -94,8 +93,7 @@ nav a{
     font-size: 20px;
     margin: 0 20px;
 }
-.continer-second {
-    padding: 20px 80px;
+.About-product {
     text-align: center;
     color: #5b5959;
     font-size: 18px;
@@ -109,45 +107,48 @@ nav a{
     width: 33.33%;
     padding: 25px;
 }
-.second-div h4 {
+.product-head h4 {
     font-size: 2rem;
+    margin-top: 0;
+    padding: 40px 0 0 0;
 }
-.second-div {
+.product-head {
     padding: 0 280px;
 }
 .row {
     padding: 0 100px;
 }
-.section3 {
+.product-steps{
     background-color: rgb(211 195 175);
-    padding: 0 200px;
+    padding: 0 150px;
+    height: 450px;
 }
 .image {
-    width: 35%;
+    width: 45%;
     height: 400px;
     display: inline-block;
-    padding: 40px 20px;
+    padding: 40px 70px 40px 0;
 }
-.section3 img {
+.product-steps img {
     width: 100%;
     height: 100%;
 }
-.third-para {
+.steps {
     display: inline-block;
-    width: 50%;
     vertical-align: top;
-    padding: 10px 60px;
+    padding: 10px 0 0 100px;
     line-height: 20px;
+    max-width: 50%;
 }
-.third-para h6 {
+.steps h6 {
     margin-bottom: 0;
     margin-top: 1px;
     font-size: 14px;
 }
-.third-para p {
+.steps p {
     margin-top: 0;
 }
-.third-para h4 {
+.steps h4 {
     font-size: 30px;
 }
 .btn-shop {
@@ -155,7 +156,7 @@ nav a{
     color: rgb(87, 84, 84);
     background-color: rgb(189 136 107);
 }
-.forth-section {
+.review {
     width: 100%;
     height: 300px;
     background-color: rgb(93 126 85);
@@ -163,11 +164,37 @@ nav a{
     text-align: center;
     padding: 50px;
 }
-.forth1{
+.needs {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 20px;
+    padding: 40px 70px 40px 0;
+    width: 50%;
+}
+.needs h4{
+    font-size: 30px;
+}
+.product-need {
+    background-color: #fff9f2;
+    padding: 0 150px;
+    height: 450px;
+}
+
+.product-need img {
+    width: 100%;
+    height: 100%;
+}
+.image4 {
+    width: 45%;
+    height: 400px;
+    display: inline-block;
+    padding: 50px 0 0 100px;
+}
+.review-head{
     margin-top: 0;
     font-size: 2rem;  
 }
-.forth2{
+.review-2{
     font-family: 'NovaresePro-Medium';
 }
 hr {
@@ -178,10 +205,7 @@ hr {
     width: 5%;
     margin-top: 80px;
 }
-#forth{
-    background-color: #fff9f2;
-}
-.last-section{
+footer{
     background-color: rgb(211 195 175);
     height: 20px; 
 }
