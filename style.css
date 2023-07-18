@@ -120,7 +120,6 @@ nav a{
 }
 .product-steps{
     background-color: rgb(211 195 175);
-    padding: 0 150px;
     height: 450px;
 }
 .image {
@@ -162,7 +161,7 @@ nav a{
     background-color: rgb(93 126 85);
     color: #d2d0c1;
     text-align: center;
-    padding: 50px;
+    padding: 50px 0;
 }
 .needs {
     display: inline-block;
@@ -176,7 +175,6 @@ nav a{
 }
 .product-need {
     background-color: #fff9f2;
-    padding: 0 150px;
     height: 450px;
 }
 .product-need img {
